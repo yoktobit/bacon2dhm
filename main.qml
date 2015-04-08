@@ -31,20 +31,20 @@ Window {
                             {
                                 sprite.animation = "walking";
                                 sprite.horizontalMirror = false;
-                                mainWindow.lastMirror = false;
+                                //mainWindow.lastMirror = false;
                             }
                             else if (mainWindow.rightKey)
                             {
                                 sprite.animation = "walking";
                                 sprite.horizontalMirror = true;
-                                mainWindow.lastMirror = true;
+                                //mainWindow.lastMirror = true;
                             }
                             else
                             {
                                 sprite.animation = "idle";
                             }
-                            console.debug(mainWindow.lastMirror);
-                            sprite.horizontalMirror = mainWindow.lastMirror;
+                            //console.debug(mainWindow.lastMirror);
+                            //sprite.horizontalMirror = mainWindow.lastMirror;
                         }
                     }
                 BB.Sprite {
@@ -58,7 +58,7 @@ Window {
                             name: "walking"
                             source: "miner rico walking.png"
                             frames: 4
-                            duration: 1000
+                            duration: 2000
                             loops: Animation.Infinite
                         }
                         ,
