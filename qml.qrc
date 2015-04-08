@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>miner rico walking.png</file>
+        <file>miner rico idle.png</file>
+    </qresource>
+</RCC>
